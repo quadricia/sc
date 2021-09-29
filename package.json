@@ -1,0 +1,44 @@
+{
+    "name": "@quadricia/sc",
+    "description": "SocketCluster JavaScript client",
+    "version": "16.0.4",
+    "homepage": "https://quadricia.com/",
+    "contributors": [{
+        "name": "Stéphane Zucatti",
+        "email": "stephane.zucatti@me.com"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/quadricia/sc.git"
+    },
+    "scripts": {
+
+    },
+    "keywords": [
+        "websocket",
+        "realtime",
+        "client",
+        "socketcluster"
+    ],
+    "main": "dist/sc.min.js",
+    "dependencies": {
+        "ag-channel": "^5.0.0",
+        "ag-request": "^1.0.0",
+        "async-stream-emitter": "^4.0.0",
+        "buffer": "^5.2.1",
+        "clone-deep": "^4.0.1",
+        "linked-list": "^0.1.0",
+        "stream-demux": "^8.0.0",
+        "uuid": "^8.3.2",
+        "ws": "^7.4.6",
+        "consumable-stream": "^2.0.0"
+    },
+    "browser": {
+        "ws": "./lib/ws-browser.js"
+    },
+    "readmeFilename": "README.md",
+    "license": "MIT",
+    "devDependencies": {
+
+    }
+}
